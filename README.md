@@ -20,4 +20,4 @@ Quer contribuir? Entre em contato pelo discord Thúlio#0001
 
 ## Licença
 
-MIT © [SeuProjeto]()
+MIT © [LCC Bot](https://github.com/Guardians-DSC/LCCBot)
