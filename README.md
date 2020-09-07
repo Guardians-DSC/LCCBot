@@ -1,33 +1,22 @@
-# oss-template
+# LCC Bot
 
-> Pequena descrição do que seu projeto faz.
+> Bot do discord para acompanhamento de status e gerenciamento nos LCCs.
 
-<!-- Descreva aqui no início os objetivos do seu projeto. -->
-
-Um template para seu projeto Open Source contendo os arquivos essenciais. Mude os tópicos desse `README.md` para conter as informações necessárias do seu projeto. Nesse template irá conter:
-
-- `README.md`: Uma estrutura básica para descrever o que é seu projeto e como utilizá-lo.
-- `LICENSE`: A licença está como **MIT**, edite para outra caso necessário. Use o [choosealicense](https://choosealicense.com/) para ajudar.
-- `CONTRIBUTING.md`: Arquivo opcional onde pode conter mais detalhes de como contribuir para seu projeto.
-- `CODE_OF_CONDUCT.md`: Código de conduta baseado no [Contributor Covenant](https://www.contributor-covenant.org). Adapte se necessário.
-- `github/ISSUE_TEMPLATE`: Template para issues.
-- `github/PULL_REQUEST_TEMPLATE`: Template para pull requests.
-
-## Como Usar
-
-<!-- Descreva como um usuário pode utilizar seu projeto. -->
+  O foco deste projeto é desenvolver um bot para o discord com o intuito de fornecer informações úteis sobre os LCCs da UFCG para alunos, tal como também providenciar uma ferramenta que facilite o operacional de suporte e gerência da equipe sobre os laboratórios de forma remota. O LCC Bot, além de fornecer serviços úteis aos alunos, se tornará um arcabouço para facilitar a gerência remota das máquinas dos laboratórios, agregando funcionalidades úteis para o desenvolvimento de futuro de diversas outras aplicações.
 
 ## Desenvolvimento
 
-Descreva quais tecnologias necessárias para sua aplicação funcionar e adicione referências.
-
-```
-caso sua aplicação exija um comando para rodar, coloque aqui.
-```
+O desenvolvimento será dividido em 3 ciclos:
+- Desenvolvimento de um backend que forneça dados estáticos dos horários dos LCCs.
+- Desenvolver do bot que interaja com usuários no discord e forneça dados estáticos.
+- Integração do bot com o backend.
 
 ## Como Contribuir
 
-<!-- Descreva informações necessárias para contribuir. Se necessário referencie o CONTRIBUTING.md -->
+Ainda não existe um guia definitivo para contribuições. Este será feito quando um código base estável de versão inicial estiver disponível.
+Entretanto, apreciamos qualquer tipo de contribuição, e issues abertas sem assignees poderão ser desenvolvidas por qualquer pessoa.
+
+Quer contribuir? Entre em contato pelo discord Thúlio#0001
 
 ## Licença
 
