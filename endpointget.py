@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/ping')
-def ok():
+def status():
     return ''
 
 if __name__ == "__main__":
