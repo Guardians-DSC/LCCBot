@@ -1,10 +1,10 @@
 from flask import Flask
+from flask import jsonify
+from src.routes import ping_blueprint, scheduler_blueprint
 
 app = Flask(__name__)
-
-@app.route('/ping')
-def status():
-    return ''
+app.register_blueprint(scheduler_blueprint)
+app.register_blueprint(ping_blueprint)
 
 if __name__ == "__main__":
     app.run()
