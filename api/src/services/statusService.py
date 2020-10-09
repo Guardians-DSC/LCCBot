@@ -1,11 +1,14 @@
 import paramiko
 
 def statusByHost(host):
+  status = True
   try:
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(hostname=host, port=23456)
     ssh.close()
-    return True
+  except paramiko.AuthenticationException:
+    pass
   except Exception as e:
-    return False
+    status = False
+  return status
