@@ -4,7 +4,7 @@ import discord
 def horarios(mensagem, args):
   instrucao = '!horarios'
 
-  req_schedule = requests.get('http://127.0.0.1:5000/schedule')
+  req_schedule = requests.get('')
   dic = req_schedule.json()
 
   embed = discord.Embed(title="LCC Bot", descripition="Aulas do dia:")
