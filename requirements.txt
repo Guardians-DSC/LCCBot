@@ -4,3 +4,4 @@ discord.py
 requests
 paramiko
 gunicorn
+lxml
