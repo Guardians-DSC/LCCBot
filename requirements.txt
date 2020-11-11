@@ -2,4 +2,5 @@ Flask
 beautifulsoup4
 discord.py
 requests
+paramiko
 gunicorn
