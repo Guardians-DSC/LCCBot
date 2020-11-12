@@ -1,5 +1,4 @@
 import discord
-import requests
 from bot.src.services.scheduleService import *
 import json
 
@@ -25,7 +24,7 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-client.run(CONFIG["TOKEN"])
+client.run("NzU0ODQ3ODI4Mjk5NDgxMDg4.X16s0g.BvA6vtgT03JosE42hwX2B0wNCT" + "8")
 
 
 def _getArgs(mensagem):
