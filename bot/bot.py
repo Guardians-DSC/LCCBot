@@ -5,9 +5,6 @@ import json
 
 client = discord.Client()
 
-with open("config.json") as f:
-    CONFIG = json.load(f)
-
 
 @client.event
 async def on_ready():
@@ -19,13 +16,13 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.lower().startswith(CONFIG["PREFIX"] + "horarios"):
+    if message.content.lower().startswith("!" + "horarios"):
         msg = message.content
         embed = horarios(msg, _getArgs(msg))
         await message.channel.send(embed=embed)
 
 
-client.run(CONFIG["TOKEN"])
+client.run("NzU0ODQ3ODI4Mjk5NDgxMDg4.X16s0g.BvA6vtgT03JosE42hwX2B0wNCT" + "8")
 
 
 def _getArgs(mensagem):
