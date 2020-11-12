@@ -6,6 +6,10 @@ import json
 client = discord.Client()
 
 
+def _getArgs(mensagem):
+    return mensagem.split(" ")[1:]
+
+
 @client.event
 async def on_ready():
     print("Efetuamos o login como {0.user}".format(client))
@@ -23,7 +27,3 @@ async def on_message(message):
 
 
 client.run("NzU0ODQ3ODI4Mjk5NDgxMDg4.X16s0g.BvA6vtgT03JosE42hwX2B0wNCT" + "8")
-
-
-def _getArgs(mensagem):
-    return mensagem.split(" ")[1:]
